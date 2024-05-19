@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1920">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="65, 50, 0 ,0" VerticalAlignment="Top">Код</TextBlock>
+        <TextBox Name="TextBoxId" Width="50" MaxHeight="50" HorizontalAlignment="Left" Margin="100, 50, 0 ,0" VerticalAlignment="Top"></TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="190, 50, 0 ,0" VerticalAlignment="Top">Название</TextBlock>
+        <TextBox Name="TextBoxName" Width="250" MaxHeight="50" HorizontalAlignment="Left" Margin="250, 50, 0 ,0" VerticalAlignment="Top"></TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="550, 50, 0 ,0" VerticalAlignment="Top">Авторы</TextBlock>
+        <TextBox Name="TextBoxAuthors" Width="250" MaxHeight="50" HorizontalAlignment="Left" Margin="600, 50, 0,0" VerticalAlignment="Top"></TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="900, 50, 0 ,0" VerticalAlignment="Top">Категория</TextBlock>
+        <TextBox Name="TextBoxCategory" Width="250" MaxHeight="50" HorizontalAlignment="Left" Margin="975, 50, 0,0" VerticalAlignment="Top"></TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="1275, 50, 0 ,0" VerticalAlignment="Top">Количество страниц</TextBlock>
+        <TextBox Name="TextBoxPages" Width="75" MaxHeight="50" HorizontalAlignment="Left" Margin="1400, 50, 0,0" VerticalAlignment="Top"></TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="1525, 50, 0 ,0" VerticalAlignment="Top">Состояние</TextBlock>
+        <TextBox Name="TextBoxState" Width="150" MaxHeight="50" HorizontalAlignment="Left" Margin="1600, 50, 0,0" VerticalAlignment="Top"></TextBox>
+        
+        <Button Name="ButtonAdd" Height="30" Width="100" HorizontalAlignment="Left" Margin="50, 150, 0,0" VerticalAlignment="Top">Добавить книгу</Button>
+        <Button Name="ButtonGet" Height="30" Width="100" HorizontalAlignment="Left" Margin="200, 150, 0,0" VerticalAlignment="Top">Получить книгу</Button>
+        <Button Name="ButtonTake" Height="30" Width="100" HorizontalAlignment="Left" Margin="500, 150, 0,0" VerticalAlignment="Top">Книга выдана</Button>
+        <Button Name="ButtonSetId" Height="30" Width="100" HorizontalAlignment="Left" Margin="350, 150, 0,0" VerticalAlignment="Top">Изменить код</Button>
+        <Button Name="ButtonRestoration" Height="30" Width="150" HorizontalAlignment="Left" Margin="650, 150, 0,0" VerticalAlignment="Top">Книга на реставрации</Button>
+    </Grid>
+</Window>
